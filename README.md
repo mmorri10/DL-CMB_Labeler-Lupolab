@@ -12,12 +12,12 @@ final_models: trained model weights and demo data.
 
 1. Run Lupo-Lab/CMB_Labeler with 'semion' (user-guided GUI for FP reduction) or 'semioff'.
 2. Run subjectlist.m to create datadir.mat file (this stores the paths of all the subjects you want to run)
-3. Run create_mat_file.m to generate the .mat data for deep network python script
+3. Run create_mat_file.m to generate the .mat data for deep network python script (see sample.mat for an example of correct output)
 4. Run predict.py MAT_FILE_PATH (in virtualenv/conda):
 
 python predict.py MAT_FILE_PATH
 
-The result will be added to the original .mat file.
+The result will be added to the original .mat file. See requirements.txt to set up the correct environment.
 
 
 For support please contact: melanie.morrison@ucsf.edu
