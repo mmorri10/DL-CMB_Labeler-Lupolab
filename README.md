@@ -20,4 +20,4 @@ python predict.py MAT_FILE_PATH
 The result will be added to the original .mat file. See requirements.txt to set up the correct environment.
 
 
-For support please contact: melanie.morrison@ucsf.edu
+For support please contact: janine.lupo at ucsf.edu
